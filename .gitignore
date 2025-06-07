@@ -1,0 +1,37 @@
+# --- Secrets ---
+# 絶対にバージョン管理に含めないでください！
+# このファイルにはAPIキーなどの機密情報が含まれます。
+.env
+
+# --- Node.js Dependencies & Build Output ---
+# 各サービスで `npm install` すれば再生成されるため不要です。
+# 非常に巨大なディレクトリなので、必須で除外します。
+node_modules/
+.next/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# --- Go Build Output ---
+# ローカルでビルドした場合の実行ファイルを除外します。
+# (コンテナ内ではビルドされますが、ローカルのものは不要)
+api-gateway/api-gateway
+problem-generator-worker/problem-generator-worker
+
+# --- OS & Editor Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode
+.vscode/
+
+# --- Docker ---
+# データベースの永続化データなどは .gitignore ではなく、
+# .dockerignore で管理するのが一般的ですが、念のため記述します。
+# (今回は.envの除外が最も重要です)
