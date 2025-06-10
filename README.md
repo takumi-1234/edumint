@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/badge/Go-1.22.2-blue.svg)](https://go.dev/dl/)
 [![Node.js Version](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: SSPL](https://img.shields.io/badge/License-SSPL%20v1.0-blue.svg)](https://www.mongodb.com/licensing/server-side-public-license)
 
 **EduMint**は、大学の講義ノートや既存の試験問題（テキスト/PDF形式）をAIで分析し、高品質な演習問題と解答のセットを自動生成する、スケーラブルな教育支援プラットフォームです。
 
@@ -221,4 +221,4 @@ EduMintは、著作権法に最大限配慮した設計となっています。
 
 ## 📜 ライセンス
 
-このプロジェクトは [MIT License](LICENSE) の下で公開されています。
+このプロジェクトは [SSPL License](LICENSE) の下で公開されています。
