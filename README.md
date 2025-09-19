@@ -1,4 +1,4 @@
-# EduMint - AI駆動の教育問題生成プラットフォーム
+# EduMint - AI駆動の演習問題生成プラットフォーム
 
 [![Go Version](https://img.shields.io/badge/Go-1.22.2-blue.svg)](https://go.dev/dl/)
 [![Node.js Version](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
